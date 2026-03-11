@@ -5,7 +5,7 @@ import faiss
 from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 
-CHUNKS_PATH = "../data/processed/chunks.json"
+CHUNKS_PATH = "data/processed/chunks.json"
 INDEX_PATH = "../data/vectorstore/faiss.index"
 METADATA_PATH = "../data/vectorstore/metadata.json"
 
